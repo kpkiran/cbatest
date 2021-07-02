@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="11.823">
+<testcase classname="Search and place order for vegetables" name="Search for the place" time="8.731">
+<system-out><![CDATA[Given User is on the landing page...........................................passed
+When User searched for isla.................................................passed
+Then isla results are displayed.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search and place order for vegetables" name="Validate error for empty search" time="2.912">
+<system-out><![CDATA[Given User is on the landing page...........................................passed
+When the user clicks on search button.......................................passed
+Then an error message should be displayed...................................passed
+]]></system-out>
+</testcase>
+</testsuite>
